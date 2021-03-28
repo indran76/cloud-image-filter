@@ -14,9 +14,19 @@ You'll need to create a new node server. Open a new terminal within the project 
 
 ### Deploying the project
 
-Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
+```
+$eb init 
+$eb create
+```
 
-[EB Deployment Dashboard](./deployment_screenshots/EB_Dashboard.PNG)
+To deploy changesa
+
+```
+$eb deploy
+```
+
+__EB Deployment Dashboard__
+![EB Deploy](./deployment_screenshots/EB_Dashboard.PNG)
 
 ### End points
 [EB Endpoint](http://mcroos-cloud-eb-dev.us-west-2.elasticbeanstalk.com/)[Raw Endpoint]
